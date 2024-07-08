@@ -1,0 +1,45 @@
+.store {
+    width: 90%;
+    margin: 10px auto;
+    padding-top: 60px; 
+    text-align: center;
+}
+
+.store h1 {
+    margin: 20px 0;
+}
+
+.album-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.album img {
+    width: 50%;
+}
+
+.album button {
+    width: 40%;
+    margin: 0 auto 20px auto;
+    height: 40px;
+    font-size: 18px;
+    background: #ffe6c5;
+    color: #814900;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.album button:hover {
+    background: #814900;
+    color: #ffe6c5;
+}
+
+.album h6 {
+    font-size: 14px;
+}
+
+.album .old-price {
+    margin-left: 10px;
+}
